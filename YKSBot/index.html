@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YKS AI Koçu - Pano</title>
+    
+    <!-- Google Fonts for a modern look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Link to our stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1><i class="fa-solid fa-brain"></i> YKS AI Koçu</h1>
+        </div>
+        <div class="user-profile">
+            <span>Hoş Geldin, <strong>Ayşe</strong></span>
+            <img src="https://i.pravatar.cc/40" alt="User Avatar">
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="dashboard-header">
+            <div class="welcome-message">
+                <h2>Merhaba Ayşe, işte bu haftaki odaklanman gerekenler!</h2>
+                <p>AI, son deneme sınavı sonuçlarına göre bu planı oluşturdu.</p>
+            </div>
+            <button class="btn-primary" id="generatePlanBtn">
+                <i class="fa-solid fa-plus"></i> Yeni Deneme Sınavı Ekle
+            </button>
+        </div>
+
+        <div class="plan-container" id="planContainer">
+            <!-- Day Card: Pazartesi -->
+            <div class="day-card">
+                <h3>Pazartesi</h3>
+                <ul>
+                    <li>
+                        <div class="task-subject">AYT Fizik</div>
+                        <div class="task-topic">Manyetizma</div>
+                        <p class="task-activity">Konu tekrarı yap ve 25 temel soru çöz.</p>
+                    </li>
+                    <li>
+                        <div class="task-subject">TYT Türkçe</div>
+                        <div class="task-topic">Paragraf Anlamı</div>
+                        <p class="task-activity">Her gün 30 paragraf sorusu rutinini başlat.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Day Card: Salı -->
+            <div class="day-card">
+                <h3>Salı</h3>
+                <ul>
+                    <li>
+                        <div class="task-subject">AYT Geometri</div>
+                        <div class="task-topic">Katı Cisimler</div>
+                        <p class="task-activity">Video ders izle ve formülleri not al.</p>
+                    </li>
+                     <li>
+                        <div class="task-subject">TYT Matematik</div>
+                        <div class="task-topic">Problemler</div>
+                        <p class="task-activity">20 adet karışık problem sorusu çöz.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Day Card: Çarşamba -->
+            <div class="day-card">
+                <h3>Çarşamba</h3>
+                 <ul>
+                    <li>
+                        <div class="task-subject">AYT Fizik</div>
+                        <div class="task-topic">Manyetizma</div>
+                        <p class="task-activity">Zor seviye 20 soru çöz ve yapamadıklarını analiz et.</p>
+                    </li>
+                    <li>
+                        <div class="task-subject">TYT Sosyal</div>
+                        <div class="task-topic">Tarih Tekrarı</div>
+                        <p class="task-activity">Hızlı tekrar notlarını oku.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Day Card: Perşembe -->
+            <div class="day-card">
+                <h3>Perşembe</h3>
+                 <ul>
+                    <li>
+                        <div class="task-subject">AYT Geometri</div>
+                        <div class="task-topic">Katı Cisimler</div>
+                        <p class="task-activity">Çıkmış sorular ve 2 test çöz.</p>
+                    </li>
+                    <li>
+                        <div class="task-subject">TYT Fen</div>
+                        <div class="task-topic">Kimya Tekrarı</div>
+                        <p class="task-activity">Asitler ve Bazlar konusunu tekrar et.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Day Card: Cuma -->
+            <div class="day-card">
+                <h3>Cuma</h3>
+                <ul>
+                    <li>
+                        <div class="task-subject">Genel Tekrar</div>
+                        <div class="task-topic">Haftanın Konuları</div>
+                        <p class="task-activity">Bu hafta işlenen tüm konuların notlarını gözden geçir.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Day Card: Cumartesi -->
+            <div class="day-card special-card">
+                <h3>Cumartesi</h3>
+                <ul>
+                    <li>
+                        <div class="task-subject">TYT Deneme Sınavı</div>
+                        <div class="task-topic">Tamamı</div>
+                        <p class="task-activity">Gerçek sınav süresi tutarak deneme çöz ve sonuçları gir.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Day Card: Pazar -->
+            <div class="day-card">
+                <h3>Pazar</h3>
+                <ul>
+                    <li>
+                        <div class="task-subject">Dinlenme ve Analiz</div>
+                        <div class="task-topic">Deneme Analizi</div>
+                        <p class="task-activity">Denemedeki yanlışlarını analiz et ve dinlen.</p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+        <!-- ... (your main content is above this) ... -->
+
+    <!-- =================================================== -->
+    <!-- === MODAL POPUP FOR ADDING EXAM RESULTS (START) === -->
+    <!-- =================================================== -->
+    <div id="examModal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-button" id="closeModalBtn">&times;</span>
+            <h2>Yeni Deneme Sınavı Sonuçları</h2>
+            <p>Lütfen ilgili derslerdeki net sayılarını girin.</p>
+            
+            <form id="examForm">
+                <div class="form-grid">
+                    <!-- TYT Section -->
+                    <div class="form-group">
+                        <label for="tytTurkce">TYT Türkçe Net</label>
+                        <input type="number" id="tytTurkce" name="TYT Türkçe Net" step="0.25" placeholder="Örn: 32.5">
+                    </div>
+                    <div class="form-group">
+                        <label for="tytMatematik">TYT Temel Matematik Net</label>
+                        <input type="number" id="tytMatematik" name="TYT Temel Matematik Net" step="0.25" placeholder="Örn: 25.75">
+                    </div>
+                     <div class="form-group">
+                        <label for="tytSosyal">TYT Sosyal Bilimler Net</label>
+                        <input type="number" id="tytSosyal" name="TYT Sosyal Bilimler Net" step="0.25" placeholder="Örn: 15">
+                    </div>
+                    <div class="form-group">
+                        <label for="tytFen">TYT Fen Bilimleri Net</label>
+                        <input type="number" id="tytFen" name="TYT Fen Bilimleri Net" step="0.25" placeholder="Örn: 16.25">
+                    </div>
+
+                    <!-- AYT Section -->
+                    <div class="form-group">
+                        <label for="aytMatematik">AYT Matematik Net</label>
+                        <input type="number" id="aytMatematik" name="AYT Matematik Net" step="0.25" placeholder="Örn: 30">
+                    </div>
+                    <div class="form-group">
+                        <label for="aytFizik">AYT Fizik Net</label>
+                        <input type="number" id="aytFizik" name="AYT Fizik Net" step="0.25" placeholder="Örn: 10.5">
+                    </div>
+                    <div class="form-group">
+                        <label for="aytKimya">AYT Kimya Net</label>
+                        <input type="number" id="aytKimya" name="AYT Kimya Net" step="0.25" placeholder="Örn: 11">
+                    </div>
+                    <div class="form-group">
+                        <label for="aytBiyoloji">AYT Biyoloji Net</label>
+                        <input type="number" id="aytBiyoloji" name="AYT Biyoloji Net" step="0.25" placeholder="Örn: 12.75">
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn-primary form-submit-btn">Planımı Güncelle</button>
+            </form>
+        </div>
+    </div>
+    <!-- ================================================= -->
+    <!-- === MODAL POPUP FOR ADDING EXAM RESULTS (END) === -->
+    <!-- ================================================= -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>

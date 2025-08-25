@@ -1,0 +1,100 @@
+{
+    "weekly_summary": "This week, we'll focus on strengthening your weak areas while maintaining your strengths. Geometri, Fizik, and Paragraf Soruları will be our main focus, along with strategic reviews in other subjects to keep you sharp. Remember, progress is built step by step. Stay positive and engaged through each session!",
+    "plan": [
+        {
+            "day": "Pazartesi",
+            "tasks": [
+                {
+                    "time_allocated_minutes": 60,
+                    "subject": "Geometri",
+                    "topic": "Katı Cisimler",
+                    "activity": "Konu Tekrarı"
+                },
+                {
+                    "time_allocated_minutes": 30,
+                    "subject": "Türkçe",
+                    "topic": "Paragrafta Anlam Bütünlüğü",
+                    "activity": "Soru Çözümü"
+                }
+            ]
+        },
+        {
+            "day": "Salı",
+            "tasks": [
+                {
+                    "time_allocated_minutes": 60,
+                    "subject": "Fizik",
+                    "topic": "Manyetizma",
+                    "activity": "Konu Tekrarı"
+                },
+                {
+                    "time_allocated_minutes": 30,
+                    "subject": "Fizik",
+                    "topic": "Elektrik",
+                    "activity": "Soru Çözümü"
+                }
+            ]
+        },
+        {
+            "day": "Çarşamba",
+            "tasks": [
+                {
+                    "time_allocated_minutes": 90,
+                    "subject": "Matematik",
+                    "topic": "Genel Soru Çözümü",
+                    "activity": "Soru Çözümü"
+                }
+            ]
+        },
+        {
+            "day": "Perşembe",
+            "tasks": [
+                {
+                    "time_allocated_minutes": 60,
+                    "subject": "Geometri",
+                    "topic": "Katı Cisimler",
+                    "activity": "Soru Çözümü"
+                },
+                {
+                    "time_allocated_minutes": 30,
+                    "subject": "Türkçe",
+                    "topic": "Paragrafta Anlam Bütünlüğü",
+                    "activity": "Konu Tekrarı"
+                }
+            ]
+        },
+        {
+            "day": "Cuma",
+            "tasks": [
+                {
+                    "time_allocated_minutes": 60,
+                    "subject": "Fizik",
+                    "topic": "Genel Soru Çözümü",
+                    "activity": "Soru Çözümü"
+                }
+            ]
+        },
+        {
+            "day": "Cumartesi",
+            "tasks": [
+                {
+                    "time_allocated_minutes": 60,
+                    "subject": "Deneme Sınavı",
+                    "topic": "TYT Genel",
+                    "activity": "Deneme Çözümü"
+                }
+            ]
+        },
+        {
+            "day": "Pazar",
+            "tasks": [
+                {
+                    "time_allocated_minutes": 90,
+                    "subject": "Deneme Sınavı",
+                    "topic": "AYT Genel",
+                    "activity": "Deneme Çözümü"
+                }
+            ]
+        }
+    ]
+}

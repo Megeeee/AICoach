@@ -1,0 +1,95 @@
+{
+    "weekly_summary": "Ayşe, your commitment to improving your scores is evident across all subjects, particularly in Türkçe, Temel Matematik, and AYT Matematik, showing remarkable progress. However, it's crucial to address the slight decline in AYT Kimya, ensuring a balanced improvement across all areas. This week's focus will be on elevating your Kimya understanding, reinforcing Fizik concepts, and maintaining your strengths in other subjects. Your dedication is paying off, and with a strategic approach this week, we aim to achieve comprehensive excellence.",
+    "plan": [
+        {
+            "day": "Monday",
+            "tasks": [
+                {
+                    "subject": "AYT Kimya",
+                    "hours": 3,
+                    "focus": "Review basic concepts and tackle problem areas."
+                },
+                {
+                    "subject": "AYT Matematik",
+                    "hours": 1,
+                    "focus": "Practice and reinforce recent learning."
+                }
+            ]
+        },
+        {
+            "day": "Tuesday",
+            "tasks": [
+                {
+                    "subject": "AYT Fizik",
+                    "hours": 2,
+                    "focus": "Focus on weak topics from the last exam."
+                },
+                {
+                    "subject": "TYT Türkçe",
+                    "hours": 1,
+                    "focus": "Reading comprehension exercises."
+                }
+            ]
+        },
+        {
+            "day": "Wednesday",
+            "tasks": [
+                {
+                    "subject": "AYT Biyoloji",
+                    "hours": 2,
+                    "focus": "Revise and deepen understanding of recent chapters."
+                },
+                {
+                    "subject": "TYT Fen Bilimleri",
+                    "hours": 1,
+                    "focus": "General review."
+                }
+            ]
+        },
+        {
+            "day": "Thursday",
+            "tasks": [
+                {
+                    "subject": "AYT Kimya",
+                    "hours": 2,
+                    "focus": "Advanced problem solving and reaction mechanisms."
+                },
+                {
+                    "subject": "TYT Temel Matematik",
+                    "hours": 1,
+                    "focus": "Algebra and geometry practice."
+                }
+            ]
+        },
+        {
+            "day": "Friday",
+            "tasks": [
+                {
+                    "subject": "AYT Fizik",
+                    "hours": 3,
+                    "focus": "Work on application questions and experimental methods."
+                }
+            ]
+        },
+        {
+            "day": "Saturday",
+            "tasks": [
+                {
+                    "subject": "Mixed Practice",
+                    "hours": 3,
+                    "focus": "Full-length mixed subject tests."
+                }
+            ]
+        },
+        {
+            "day": "Sunday",
+            "tasks": [
+                {
+                    "subject": "Rest & Review",
+                    "hours": 4,
+                    "focus": "Go over this week's work and rest."
+                }
+            ]
+        }
+    ]
+}

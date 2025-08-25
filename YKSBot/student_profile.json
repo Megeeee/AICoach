@@ -1,0 +1,37 @@
+{
+    "student_info": {
+        "name": "Ayşe Yılmaz",
+        "goal": "Bilgisayar Mühendisliği",
+        "weekly_hours": 20
+    },
+    "exam_history": [
+        {
+            "exam_date": "2025-08-21",
+            "exam_name": "Deneme Sınavı #1",
+            "results": {
+                "TYT Türkçe Net": 25,
+                "TYT Temel Matematik Net": 22,
+                "TYT Sosyal Bilimler Net": 13,
+                "TYT Fen Bilimleri Net": 11,
+                "AYT Matematik Net": 31,
+                "AYT Fizik Net": 7,
+                "AYT Kimya Net": 9,
+                "AYT Biyoloji Net": 7
+            }
+        },
+        {
+            "exam_date": "2025-08-21",
+            "exam_name": "Deneme Sınavı #2",
+            "results": {
+                "TYT Türkçe Net": 16.75,
+                "TYT Temel Matematik Net": 30.5,
+                "TYT Sosyal Bilimler Net": 13.25,
+                "TYT Fen Bilimleri Net": 10.75,
+                "AYT Matematik Net": 35.25,
+                "AYT Fizik Net": 6.75,
+                "AYT Kimya Net": 8.5,
+                "AYT Biyoloji Net": 7.25
+            }
+        }
+    ]
+}
